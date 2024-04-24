@@ -14,9 +14,7 @@ This project demonstrates how to perform streaming data analysis using Apache Ka
 
 4. **Streaming Pipeline Setup**: A Kafka producer application is developed to stream the preprocessed data in real-time. Three consumer applications are created to subscribe to the producer's data stream.
 
-5. ## Frequent Itemset Mining
-
-In the context of this project, frequent itemset mining refers to the process of identifying sets of items that frequently co-occur together in the dataset. This is a fundamental task in data mining and is often used in market basket analysis, recommendation systems, and other data-driven applications.
+5. **Frequent Itemset Mining**: In the context of this project, frequent itemset mining refers to the process of identifying sets of items that frequently co-occur together in the dataset. This is a fundamental task in data mining and is often used in market basket analysis, recommendation systems, and other data-driven applications.
 
 ### Consumer 1 and Consumer 2:
 Two of the consumer applications (Consumer 1 and Consumer 2) are responsible for implementing well-known algorithms for frequent itemset mining:
